@@ -5,6 +5,7 @@ Vue.use(VueI18n)
 const messages = {
   zh: {
     message: {
+      i18n: 'zh',
       title: '一站式管理，让数字资产安全无忧',
       letter1: '多重技术 多种存储',
       letterInfo1: 'Cyberblock采⽤用多种技术⽅方案为⽤户提供可选择的数字钱包，支持本地存储及云存储，本地存储私 钥⾃自持，云存储急速⽀付',
@@ -26,6 +27,7 @@ const messages = {
   },
   en: {
     message: {
+      i18n: 'en',
       title: 'One-stop management, keep your digital assets absolutely secured',
       letter1: 'Multi-tech/multi-store',
       letterInfo1: 'Cyberblock uses multi-technology operation to optional digital wallet for users, it supports local store and cloud store. Private key will be kept in local store, cloud store is only for instant payment.',
@@ -45,7 +47,27 @@ const messages = {
     }
   },
   jp: {
+    message: {
+      i18n: 'jp',
 
+      title: 'デジタル資産を安全かつ安心して管理できるワンストップ管理',
+      letter1: 'マルチテク/マルチストア',
+      letterInfo1: 'Cyberblockはマルチテクノロジー操作を用いて、オプショナルデジタルウォレットをユーザーに提供し、ローカルストアとクラウドストアをサポートします。 秘密鍵はローカルストアに保存され、クラウドストアは即時支払いのみに使用されます。',
+      letter2: '完全なサーバレス、安全かつ安心',
+      letterInfo2:'Cyberblockのすべての外部ネットワークサービスは、Google Firebaseが提供するNodejs拡張機能によって実行されます。 アプリのすべてのデータはGoogleのサーバーの中に保存されます。 Google Cloudサーバーが安全であればサイバーブロックは完全に保護されます',
+      letter3: 'マルチ通貨がサポートされ容易に管理できます',
+      letterInfo3:'Cyberblockはビットコイン、イーサリアム、ライトコインを含む数十の主要デジタル通貨をサポートしています。 他の通貨も簡単に追加でき、ユーザーが資産配分を充実させるのに役立ちます。',
+      about: 'Cyberblockについて ',
+      aboutTitle1: 'Cyberblockは金融技術のブロックチェーン技術の応用と開発を専門とする会社です。',
+      aboutTitle2: 'メイン製品のCyberblockは、プロフェッショナルなデジタルアセットウォレットとして、クラウドウォレットとローカルウォレットストレージをサポートできます。',
+      aboutTitle3: '使いやすく、便利で速い、安全かつ安心なマルチチェーンのワンストップ管理を実現。ブロックチェーンのエントリレベルのアプリケーションをつくる。',
+      aboutTitle4: '私たちはすべてのデジタル通貨技術の開発をサポートし、ユーザーに最善を尽くします！',
+      aboutTitle5: '価値を自由に流れる',
+      contactUs: 'お問い合わせ',
+      downloadApp: 'アプリをダウンロード',
+      imgSrc: 'img-jp'
+
+    }
   }
 }
 

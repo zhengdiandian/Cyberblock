@@ -41,6 +41,7 @@
             lang:{
               'en': 'English',
               'zh': '简体中文',
+              'jp': '日本語'
             },
             // curLang: this.$i18n.locale,
             langshow: false,
@@ -57,7 +58,7 @@
             this.langshow = !this.langshow
           },
           changeLang(lang){
-            
+
             this.langshow = !this.langshow
             this.$i18n.locale = lang
             this.curLang = this.lang[lang]
@@ -176,21 +177,22 @@
       }
 
       ul{
+        cursor: pointer;
         position: absolute;
         box-sizing: border-box;
         padding: 12px 0px;
         right: 0px;
         top: 30px ;
-        width: 100px;
+
         background-color: #fff;
         background:#ffffff;
         box-shadow:0 4px 30px 0 rgba(41,74,147,0.20);
         border-radius:2px;
-        width:250px;
-        height:276px;
+        width:125px;
+        /*height:px;*/
         li{
 
-          width: 50%;
+          width: 100%;
           display: inline-block;
           height: 36px;
           font-family:PingFangSC-Regular;
@@ -243,6 +245,17 @@
         background-image: image-set(
             url('../../../static/img/中文.png') 1x,
             url('../../../static/img/中文@2x.png') 2x
+        );
+      }
+      &.img-jp{
+        background-image: url('../../../static/img/日文.png');
+        background-image: -webkit-image-set(
+            url('../../../static/img/日文.png') 1x,
+            url('../../../static/img/日文@2x.png') 2x
+        );
+        background-image: image-set(
+            url('../../../static/img/日文.png') 1x,
+            url('../../../static/img/日文@2x.png') 2x
         );
       }
 
