@@ -258,10 +258,10 @@
     .text.left{
       width: 100%;
       .text-tit,p{
-        text-align: center;
+        /*text-align: center;*/
         margin: auto;
         word-break: break-word;
-        /*word-wrap: break-spaces;*/
+        word-wrap: break-spaces;
       }
       p{
         margin-top: 30px;
@@ -273,5 +273,45 @@
     /*width: 300px ;*/
   }
 }
+  .mian-wrap.jp{
+    .mian-text{
+      box-sizing: border-box;
+      /*padding-left:100px;*/
+      .text{
+        /*width: 100%;*/
+      }
+      .text.left{
+        width: 100%;
+        .text-tit,p{
+          /*text-align: center;*/
+          margin: auto;
+          word-break: break-word;
+          word-wrap: break-spaces;
+        }
+        p{
+          margin-top: 30px;
+          width: 100%;
+        }
+      }
+    }
+    & .mian-row:nth-child(1){
+
+    p{
+      width: 414px ;
+    }
+    }
+    & .mian-row:nth-child(2){
+      .text.left p{
+      width: 555px ;
+        margin: 30px 0px 0px;
+    }
+    }
+    & .mian-row:nth-child(3) {
+      .text .text-tit,p{
+        width: 468px;
+      }
+
+    }
+  }
 
 </style>
